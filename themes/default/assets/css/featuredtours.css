@@ -1,0 +1,135 @@
+.box-title{margin-bottom:0;line-height:1em}
+.box-title small{font-size:10px;color:#8592a0;text-transform:uppercase;display:block;margin-top:4px}
+.box-title,.price,a.button{letter-spacing:.04em}
+a.button{border:0;color:#fff;cursor:pointer;padding:0 15px;white-space:nowrap}
+a.button.btn-small{height:28px;padding:0 24px;line-height:28px;font-size:.9167em}
+a.button{display:inline-block;background:#d9d9d9;font-size:.8333em;line-height:1.8333em;white-space:nowrap;text-align:center}
+a.button:hover{background:#98ce44}
+a.button.btn-small{font-weight:700}
+.hover-effect{display:block;position:relative;background:0;overflow:hidden}
+.hover-effect:after{content:"";position:absolute;left:0;top:0;width:100%;height:100%;visibility:hidden;transition:all .4s ease-out;-webkit-transform:rotateY(180deg) scale(.5);transform:rotateY(180deg) scale(.5);background:url() no-repeat 50%;filter:alpha(opacity=0);-ms-filter:"alpha(opacity=0)";-moz-opacity:0;-khtml-opacity:0;opacity:0;background-color:rgba(1,183,242,.6)}
+.hover-effect img{display:block;position:relative;transition:all .4s ease-out;-webkit-backface-visibility:hidden}
+.hover-effect:hover:after{visibility:visible;-webkit-transform:rotateY(0deg) scale(1);transform:rotateY(0deg) scale(1);filter:alpha(opacity=100);-ms-filter:"alpha(opacity=100)";-moz-opacity:1;-khtml-opacity:1;opacity:1}
+.hover-effect:hover img{-webkit-transform:scale(1.2);transform:scale(1.2)}
+.price{color:#7db921;font-size:1.6667em;text-transform:uppercase;float:right;text-align:right;line-height:1;display:block}
+.image-box .box{text-align:left;background:#fff;margin-bottom:30px}
+.image-box .box img{width:100%;height:auto}
+.image-box .box>.details{padding:12px 15px}
+.image-box .box>.details>:last-child{margin-bottom:0}
+.image-box .box .box-title{margin-bottom:10px;color:#2d3e52}
+.listing-style1.hotel .box-title:after{display:table;content:"";clear:both}
+.listing-style1.hotel .feedback{margin:5px 0;border-top:1px solid #f5f5f5;padding-top:5px;border-bottom:1px solid #f5f5f5}
+.listing-style1.hotel .feedback .review{display:block;float:right;text-transform:uppercase;font-size:.8333em;color:#9e9e9e}
+.listing-style1.hotel .five-stars-container{display: inline-block; position: relative; font-family: Glyphicons Halflings; font-size: 14px; text-align: left; cursor: default; white-space: nowrap; line-height: 1.2em; color: #dbdbdb;}
+.hotel-list{margin-top:30px}
+html[data-page=home] section#content .hot-deals-list h4{letter-spacing:0}
+html[data-page=home] section#content .hot-deals-list .box:hover{-webkit-transform:scale(1.05);transform:scale(1.05);z-index:1000;background:rgba(78,199,235,.03);background:#fff}
+html[data-page=home] section#content .hot-deals-list .box{transition:all .2s ease-in-out;position:relative;min-height:450px;border-radius:8px 8px 8px 8px;box-shadow:0 3px 20px rgba(0,41,99,.1)}
+html[data-page=home] section#content .hot-deals-list .box .details .five-stars-container .five-stars{background:0}
+html[data-page=home] section#content .hot-deals-list .box .details .box-title span{margin:10px 0;display:block;font-size:1.5em;line-height:1.5em}
+html[data-page=home] section#content .hot-deals-list .box .details .box-title i{margin-right:10px;float:left}
+html[data-page=home] section#content .hot-deals-list .hotel-list figure a{border-radius:8px 8px 0 0}
+html[data-page=home] section#content .hot-deals-list .hotel-list figure .hover-effect{position:relative;width:100%;height:200px!important;overflow:hidden}
+html[data-page=home] section#content .hot-deals-list .hotel-list figure img{border-radius:8px;position:absolute;left:50%;top:50%;height:100%;width:auto;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more{margin-top:50px}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more .price_container{bottom:20px;right:0}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more .action_container{bottom:20px;left:0}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more a.button{position:relative;padding:0 10px;float:right;width:100%;border-radius:4px 4px 4px 4px;letter-spacing:0;background:#fff;border:1px solid #8592a0;color:#2d3e52;margin-top:24px;font-size:1em;display:flex}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more a.button:hover{background:#01b7f2;color:#fff;border:1px solid #01b7f2}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more .hint{color:#8592a0;font-size:1em!important;font-weight:400;float:none!important;text-align:right;margin-top:5px;float:right!important;clear:both}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more .price{color:#e71e25;float:right;font-size:1em!important;letter-spacing:0;text-align:right}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more .price .currency{float:right;margin:10px 5px 0 0}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more .price .amount{float:right}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more .price .amount .amo{float:left;font-size:2em;margin-bottom:0;font-weight:700;direction:ltr}
+@media(min-width:992px){.row.add-clearfix>.col-md-3:nth-child(3n+1),.row.add-clearfix>.col-md-3:nth-child(odd){clear:none}
+.row.add-clearfix>.col-md-3:nth-child(4n+1){clear:both}
+}@media(max-width:320px){.row{padding:0 3px}
+}
+[data-aos]{pointer-events:none}
+[data-aos].aos-animate{pointer-events:auto}
+body[data-aos-easing=ease] [data-aos]{transition-timing-function:ease}
+@media screen{html:not(.no-js) [data-aos^=zoom][data-aos^=zoom]{opacity:0;transition-property:opacity,-webkit-transform;transition-property:opacity,transform;transition-property:opacity,transform,-webkit-transform}
+html:not(.no-js) [data-aos^=zoom][data-aos^=zoom].aos-animate{opacity:1;-webkit-transform:translateZ(0) scale(1);transform:translateZ(0) scale(1)}
+html:not(.no-js) [data-aos=zoom-in]{-webkit-transform:scale(.6);transform:scale(.6)}
+
+.featured_tours .box:hover{-webkit-transform:scale(1.05);transform:scale(1.05);z-index:1000;background:rgba(78,199,235,.03);background:#fff}
+.featured_tours .box-title span{margin:10px 0;display:block;font-size:1em;line-height:1.5em}
+.featured_tours .price{color:#e71e25;float:right;font-size:1em!important;letter-spacing:0;text-align:right}
+.featured_tours .price .currency{float:right;margin:10px 5px 0 0}
+.featured_tours .hint{color:#8592a0;font-size:1em!important;font-weight:400;float:none!important;text-align:right;margin-top:5px;float:right!important;clear:both}
+.featured_tours a.button{position:relative;padding:0 10px;float:right;width:100%;border-radius:4px 4px 4px 4px;letter-spacing:0;background:#fff;border:1px solid #8592a0;color:#2d3e52;margin-top:24px;font-size:1em;display:flex}
+.featured_tours .price .amount .amo{float:left;font-size:2em;margin-bottom:0;font-weight:700;direction:ltr}
+.featured_tours .feedback{margin:5px 0;border-top:1px solid #f5f5f5;padding-top:5px;border-bottom:1px solid #f5f5f5}
+.featured_tours .review{display:block;float:right;text-transform:uppercase;font-size:.8333em;color:#9e9e9e}
+.featured_tours .box{transition:all .2s ease-in-out;position:relative;min-height:450px;border-radius:8px 8px 8px 8px;box-shadow:0 3px 20px rgba(0,41,99,.1)}
+.discover_more{margin-top:50px}
+.discover_more .action_container{bottom:20px;left:10px}
+.discover_more .price_container{bottom:20px;right:0}
+.discover_more a.button:hover{background:#01b7f2;color:#fff;border:1px solid #01b7f2}.box-title{margin-bottom:0;line-height:1em}
+.box-title small{font-size:10px;color:#8592a0;text-transform:uppercase;display:block;margin-top:4px}
+.box-title,.price,a.button{letter-spacing:.04em}
+a.button{border:0;color:#fff;cursor:pointer;padding:0 15px;white-space:nowrap}
+a.button.btn-small{height:28px;padding:0 24px;line-height:28px;font-size:.9167em}
+a.button{display:inline-block;background:#d9d9d9;font-size:.8333em;line-height:1.8333em;white-space:nowrap;text-align:center}
+a.button:hover{background:#98ce44}
+a.button.btn-small{font-weight:700}
+.hover-effect{display:block;position:relative;background:0;overflow:hidden}
+.hover-effect:after{content:"";position:absolute;left:0;top:0;width:100%;height:100%;visibility:hidden;transition:all .4s ease-out;-webkit-transform:rotateY(180deg) scale(.5);transform:rotateY(180deg) scale(.5);background:url() no-repeat 50%;filter:alpha(opacity=0);-ms-filter:"alpha(opacity=0)";-moz-opacity:0;-khtml-opacity:0;opacity:0;background-color:rgba(1,183,242,.6)}
+.hover-effect img{display:block;position:relative;transition:all .4s ease-out;-webkit-backface-visibility:hidden}
+.hover-effect:hover:after{visibility:visible;-webkit-transform:rotateY(0deg) scale(1);transform:rotateY(0deg) scale(1);filter:alpha(opacity=100);-ms-filter:"alpha(opacity=100)";-moz-opacity:1;-khtml-opacity:1;opacity:1}
+.hover-effect:hover img{-webkit-transform:scale(1.2);transform:scale(1.2)}
+.price{color:#7db921;font-size:1.6667em;text-transform:uppercase;float:right;text-align:right;line-height:1;display:block}
+.image-box .box{text-align:left;background:#fff;margin-bottom:30px}
+.image-box .box img{width:100%;height:auto}
+.image-box .box>.details{padding:12px 15px}
+.image-box .box>.details>:last-child{margin-bottom:0}
+.image-box .box .box-title{margin-bottom:10px;color:#2d3e52}
+.listing-style1.hotel .box-title:after{display:table;content:"";clear:both}
+.listing-style1.hotel .feedback{margin:5px 0;border-top:1px solid #f5f5f5;padding-top:5px;border-bottom:1px solid #f5f5f5}
+.listing-style1.hotel .feedback .review{display:block;float:right;text-transform:uppercase;font-size:.8333em;color:#9e9e9e}
+.listing-style1.hotel .five-stars-container{display: inline-block; position: relative; font-family: Glyphicons Halflings; font-size: 14px; text-align: left; cursor: default; white-space: nowrap; line-height: 1.2em; color: #dbdbdb;}
+.hotel-list{margin-top:30px}
+html[data-page=home] section#content .hot-deals-list h4{letter-spacing:0}
+html[data-page=home] section#content .hot-deals-list .box:hover{-webkit-transform:scale(1.05);transform:scale(1.05);z-index:1000;background:rgba(78,199,235,.03);background:#fff}
+html[data-page=home] section#content .hot-deals-list .box{transition:all .2s ease-in-out;position:relative;min-height:450px;border-radius:8px 8px 8px 8px;box-shadow:0 3px 20px rgba(0,41,99,.1)}
+html[data-page=home] section#content .hot-deals-list .box .details .five-stars-container .five-stars{background:0}
+html[data-page=home] section#content .hot-deals-list .box .details .box-title span{margin:10px 0;display:block;font-size:1.5em;line-height:1.5em}
+html[data-page=home] section#content .hot-deals-list .box .details .box-title i{margin-right:10px;float:left}
+html[data-page=home] section#content .hot-deals-list .hotel-list figure a{border-radius:8px 8px 0 0}
+html[data-page=home] section#content .hot-deals-list .hotel-list figure .hover-effect{position:relative;width:100%;height:200px!important;overflow:hidden}
+html[data-page=home] section#content .hot-deals-list .hotel-list figure img{border-radius:8px;position:absolute;left:50%;top:50%;height:100%;width:auto;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more{margin-top:50px}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more .price_container{bottom:20px;right:0}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more .action_container{bottom:20px;left:0}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more a.button{position:relative;padding:0 10px;float:right;width:100%;border-radius:4px 4px 4px 4px;letter-spacing:0;background:#fff;border:1px solid #8592a0;color:#2d3e52;margin-top:24px;font-size:1em;display:flex}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more a.button:hover{background:#01b7f2;color:#fff;border:1px solid #01b7f2}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more .hint{color:#8592a0;font-size:1em!important;font-weight:400;float:none!important;text-align:right;margin-top:5px;float:right!important;clear:both}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more .price{color:#e71e25;float:right;font-size:1em!important;letter-spacing:0;text-align:right}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more .price .currency{float:right;margin:10px 5px 0 0}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more .price .amount{float:right}
+html[data-page=home] section#content .hot-deals-list .hotel-list .discover_more .price .amount .amo{float:left;font-size:2em;margin-bottom:0;font-weight:700;direction:ltr}
+@media(min-width:992px){.row.add-clearfix>.col-md-3:nth-child(3n+1),.row.add-clearfix>.col-md-3:nth-child(odd){clear:none}
+.row.add-clearfix>.col-md-3:nth-child(4n+1){clear:both}
+}@media(max-width:320px){.row{padding:0 3px}
+}
+[data-aos]{pointer-events:none}
+[data-aos].aos-animate{pointer-events:auto}
+body[data-aos-easing=ease] [data-aos]{transition-timing-function:ease}
+@media screen{html:not(.no-js) [data-aos^=zoom][data-aos^=zoom]{opacity:0;transition-property:opacity,-webkit-transform;transition-property:opacity,transform;transition-property:opacity,transform,-webkit-transform}
+html:not(.no-js) [data-aos^=zoom][data-aos^=zoom].aos-animate{opacity:1;-webkit-transform:translateZ(0) scale(1);transform:translateZ(0) scale(1)}
+html:not(.no-js) [data-aos=zoom-in]{-webkit-transform:scale(.6);transform:scale(.6)}
+
+.featured_tours .box:hover{-webkit-transform:scale(1.05);transform:scale(1.05);z-index:1000;background:rgba(78,199,235,.03);background:#fff}
+.featured_tours .box-title span{margin:10px 0;display:block;font-size:1em;line-height:1.5em}
+.featured_tours .price{color:#e71e25;float:right;font-size:1em!important;letter-spacing:0;text-align:right}
+.featured_tours .price .currency{float:right;margin:10px 5px 0 0}
+.featured_tours .hint{color:#8592a0;font-size:1em!important;font-weight:400;float:none!important;text-align:right;margin-top:5px;float:right!important;clear:both}
+.featured_tours a.button{position:relative;padding:0 10px;float:right;width:100%;border-radius:4px 4px 4px 4px;letter-spacing:0;background:#fff;border:1px solid #8592a0;color:#2d3e52;margin-top:24px;font-size:1em;display:flex}
+.featured_tours .price .amount .amo{float:left;font-size:2em;margin-bottom:0;font-weight:700;direction:ltr}
+.featured_tours .feedback{margin:5px 0;border-top:1px solid #f5f5f5;padding-top:5px;border-bottom:1px solid #f5f5f5}
+.featured_tours .review{display:block;float:right;text-transform:uppercase;font-size:.8333em;color:#9e9e9e}
+.featured_tours .box{transition:all .2s ease-in-out;position:relative;min-height:450px;border-radius:8px 8px 8px 8px;box-shadow:0 3px 20px rgba(0,41,99,.1)}
+.discover_more{margin-top:50px}
+.discover_more .action_container{bottom:20px;left:10px}
+.discover_more .price_container{bottom:20px;right:0}
+.discover_more a.button:hover{background:#01b7f2;color:#fff;border:1px solid #01b7f2}
